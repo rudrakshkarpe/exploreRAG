@@ -21,6 +21,6 @@ pip install -r requirements.txt
 
 4. Download LLM model of your choice locally from the hugging face. For this project following models are recommended as:
 
-- gemma-2b-it.Q2_K.gguf
-- Phi-3-mini-4k-instruct-q4.gguf
-- mistral-7b-v0.1.Q2_K.gguf
+- [gemma-2b-it.Q2_K.gguf](https://huggingface.co/asedmammad/gemma-2b-it-GGUF/tree/main)
+- [Phi-3-mini-4k-instruct-q4.gguf](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/tree/main)
+- [mistral-7b-v0.1.Q2_K.gguf](https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/tree/main)
