@@ -27,6 +27,7 @@ pip install -r requirements.txt
 - [Phi-3-mini-4k-instruct-q4.gguf](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/tree/main)
 - [mistral-7b-v0.1.Q2_K.gguf](https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/tree/main)
 
+- Once, you download LLM locally replace the path of the model with the follwing model = " " path in the ```app.py``` 
 
 5. Download llama.cpp and compile it using the following command for the GPU support:
 
