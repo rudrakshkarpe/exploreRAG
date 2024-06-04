@@ -24,3 +24,17 @@ pip install -r requirements.txt
 - [gemma-2b-it.Q2_K.gguf](https://huggingface.co/asedmammad/gemma-2b-it-GGUF/tree/main)
 - [Phi-3-mini-4k-instruct-q4.gguf](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/tree/main)
 - [mistral-7b-v0.1.Q2_K.gguf](https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/tree/main)
+
+
+5. Download llama.cpp and compile it using the following command for the GPU support:
+
+For NVIDIA GPU:
+```bash
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
+```
+
+For Apple Metal M1/M2 GPU support:
+```bash
+CMAKE_ARGS="-DLLAMA_METAL=on"  FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
+```
+
