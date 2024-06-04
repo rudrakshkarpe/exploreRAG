@@ -1,8 +1,9 @@
 ### RAG (Retrieval Augmented Generation) Demo
 
-
-
-### Follow these steps to run the RAG demo on your local machine:
+<details>
+<summary> 
+👉 Follow these steps to run the RAG demo on your local machine: 
+</summary>
 
 👉 Create an example.env to store your API huggingface token as:
 
@@ -38,4 +39,5 @@ For Apple Metal M1/M2 GPU support:
 ```bash
 CMAKE_ARGS="-DLLAMA_METAL=on"  FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
 ```
-
+ 
+</details>
